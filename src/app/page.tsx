@@ -48,7 +48,7 @@ export default function KimaakiLanding() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-3">
   <img src="/logo.svg" alt="Kimaaki Logo" className="h-10 w-auto" />
-  <span className="text-2xl font-bold text-[#111111]">Kimaaki</span>
+ 
 </div>
 
             </div>
