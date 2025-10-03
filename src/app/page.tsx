@@ -834,7 +834,6 @@ export default function KimaakiLanding() {
                 </li>
               </ul>
             </div>
-          </div>
           
           <div className="border-t border-gray-800 pt-12">
             <div className="flex flex-col md:flex-row justify-between items-center">
