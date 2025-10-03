@@ -752,10 +752,10 @@ export default function KimaakiLanding() {
             {/* Sobre a Empresa */}
             <div className="md:col-span-2">
               <div className="flex items-center space-x-4 mb-8">
-                <div className="w-16 h-16 bg-gradient-to-br from-[#00B488] to-[#006241] rounded-2xl flex items-center justify-center shadow-lg">
-                  <span className="text-white font-bold text-2xl">K</span>
-                </div>
-                <span className="text-3xl font-bold">Kimaaki</span>
+                <div className="flex items-center space-x-3 mb-8">
+  <img src="/logo.svg" alt="Kimaaki Logo" className="h-16 w-auto" />
+</div>
+
               </div>
               <p className="text-gray-300 leading-relaxed text-lg mb-8 max-w-md">
                 Conectando comunidades através da tecnologia. O marketplace de entregas 
