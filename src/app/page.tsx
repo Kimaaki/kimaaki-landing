@@ -889,6 +889,6 @@ export default function KimaakiLanding() {
           </p>
         </div>
        </div>
-</footer>   // fecha o footer
+</footer> 
 );
-}           // fecha a função
+} 
