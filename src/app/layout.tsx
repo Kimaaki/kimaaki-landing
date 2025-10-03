@@ -30,7 +30,7 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Kimaaki - Marketplace",
+        alt: "Kimaaki – Marketplace",
       },
     ],
     locale: "pt_PT",
@@ -43,10 +43,13 @@ export const metadata: Metadata = {
     images: ["/og-image.png"],
   },
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-32x32.png",
-    apple: "/apple-touch-icon.png",
-  },
+  icon: "/icon.svg", // seu logo principal em SVG
+  shortcut: "/favicon.ico", // versão clássica para navegadores
+  apple: "/apple-touch-icon.png", // para iPhone/iPad
+},
+
+};
+
 };
 
 
