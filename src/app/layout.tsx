@@ -43,11 +43,10 @@ export const metadata: Metadata = {
     images: ["/og-image.png"],
   },
   icons: {
-  icon: "/icon.svg", // seu logo principal em SVG
-  shortcut: "/favicon.ico", // versão clássica para navegadores
-  apple: "/apple-touch-icon.png", // para iPhone/iPad
-},
-
+    icon: "/icon.svg", // teu logo principal em SVG
+    shortcut: "/favicon.ico", // versão clássica para navegadores
+    apple: "/apple-touch-icon.png", // ícone para iPhone/iPad
+  },
 };
 
 
