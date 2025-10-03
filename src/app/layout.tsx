@@ -21,16 +21,34 @@ export const metadata: Metadata = {
   description: "Kimaaki conecta você a restaurantes, supermercados, lojas e farmácias. Faça seu pedido pelo app e receba onde estiver.",
   keywords: "Kimaaki, delivery Angola, delivery Moçambique, marketplace de entregas, app de comida, supermercados online, delivery Cabo Verde, delivery Guiné-Bissau, entrega rápida, pedidos online",
   openGraph: {
-    title: "Kimaaki – Marketplace de Delivery em Angola, Moçambique, Cabo Verde e Guiné-Bissau",
-    description: "O marketplace de entregas que conecta você a restaurantes, supermercados e farmácias na sua cidade",
+    title: "Kimaaki – Marketplace de Delivery",
+    description: "O marketplace de entregas que conecta você a restaurantes, supermercados e farmácias na sua cidade.",
+    url: "https://www.kimaaki.com",
+    siteName: "Kimaaki",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Kimaaki - Marketplace",
+      },
+    ],
+    locale: "pt_PT",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "Kimaaki – Marketplace de Delivery",
     description: "Conectamos você aos melhores estabelecimentos da sua região",
+    images: ["/og-image.png"],
+  },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-32x32.png",
+    apple: "/apple-touch-icon.png",
   },
 };
+
 
 export default function RootLayout({
   children,
