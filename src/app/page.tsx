@@ -746,116 +746,99 @@ export default function KimaakiLanding() {
       </section>
 
       {/* Rodapé Premium Internacional */}
-      <footer id="contato" className="bg-[#111111] text-white py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-4 gap-12 mb-20">
-            {/* Sobre a Empresa */}
-            {/* Sobre a Empresa */}
-<div className="md:col-span-2">
-  <div className="flex items-center space-x-3 mb-8">
-    <span className="text-3xl font-bold text-[#00B488]">Kimaaki</span>
-  </div>
-</div>
-              </div>
-              <p className="text-gray-300 leading-relaxed text-lg mb-8 max-w-md">
-                Conectando comunidades através da tecnologia. O marketplace de entregas 
-                que está transformando a forma como as pessoas fazem compras em África.
-              </p>
-              <div className="flex space-x-4">
-                <a href="#" className="w-14 h-14 bg-gray-800 rounded-2xl flex items-center justify-center hover:bg-[#00B488] transition-all duration-300 transform hover:scale-110">
-                  <Facebook className="w-6 h-6" />
-                </a>
-                <a href="#" className="w-14 h-14 bg-gray-800 rounded-2xl flex items-center justify-center hover:bg-[#00B488] transition-all duration-300 transform hover:scale-110">
-                  <Instagram className="w-6 h-6" />
-                </a>
-                <a href="#" className="w-14 h-14 bg-gray-800 rounded-2xl flex items-center justify-center hover:bg-[#00B488] transition-all duration-300 transform hover:scale-110">
-                  <Linkedin className="w-6 h-6" />
-                </a>
-              </div>
-            </div>
-            
-            {/* Links Úteis */}
-            <div>
-              <h3 className="text-2xl font-bold mb-8 text-white">Links Úteis</h3>
-              <ul className="space-y-4">
-                <li><a href="#sobre" className="text-gray-300 hover:text-[#00B488] transition-colors text-lg flex items-center group">
-                  <ChevronRight className="w-4 h-4 mr-2 group-hover:translate-x-1 transition-transform duration-300" />
-                  Sobre nós
-                </a></li>
-                <li><a href="#como-funciona" className="text-gray-300 hover:text-[#00B488] transition-colors text-lg flex items-center group">
-                  <ChevronRight className="w-4 h-4 mr-2 group-hover:translate-x-1 transition-transform duration-300" />
-                  Como funciona
-                </a></li>
-                <li><a href="#" className="text-gray-300 hover:text-[#00B488] transition-colors text-lg flex items-center group">
-                  <ChevronRight className="w-4 h-4 mr-2 group-hover:translate-x-1 transition-transform duration-300" />
-                  Seja um parceiro
-                </a></li>
-                <li><a href="#" className="text-gray-300 hover:text-[#00B488] transition-colors text-lg flex items-center group">
-                  <ChevronRight className="w-4 h-4 mr-2 group-hover:translate-x-1 transition-transform duration-300" />
-                  Termos de uso
-                </a></li>
-                <li><a href="#" className="text-gray-300 hover:text-[#00B488] transition-colors text-lg flex items-center group">
-                  <ChevronRight className="w-4 h-4 mr-2 group-hover:translate-x-1 transition-transform duration-300" />
-                  Política de privacidade
-                </a></li>
-              </ul>
-            </div>
-            
-            {/* Contato */}
-            <div>
-              <h3 className="text-2xl font-bold mb-8 text-white">Contato</h3>
-              <ul className="space-y-6">
-                <li className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-[#00B488] rounded-xl flex items-center justify-center">
-                    <Mail className="w-6 h-6 text-white" />
-                  </div>
-                  <div>
-                    <div className="text-gray-300 text-lg">contato@kimaaki.com</div>
-                    <div className="text-gray-500 text-sm">Suporte geral</div>
-                  </div>
-                </li>
-                <li className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-[#00B488] rounded-xl flex items-center justify-center">
-                    <Phone className="w-6 h-6 text-white" />
-                  </div>
-                  <div>
-                    <div className="text-gray-300 text-lg">+244 900 000 000</div>
-                    <div className="text-gray-500 text-sm">Segunda a sexta, 8h-18h</div>
-                  </div>
-                </li>
-                <li className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-[#00B488] rounded-xl flex items-center justify-center">
-                    <MapPin className="w-6 h-6 text-white" />
-                  </div>
-                  <div>
-                    <div className="text-gray-300 text-lg">Luanda, Angola</div>
-                    <div className="text-gray-500 text-sm">Sede principal</div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          
-          <div className="border-t border-gray-800 pt-12">
-            <div className="flex flex-col md:flex-row justify-between items-center">
-              <p className="text-gray-400 text-lg mb-4 md:mb-0">
-                © 2025 Kimaaki. Todos os direitos reservados.
-              </p>
-              
-              <div className="flex flex-wrap items-center gap-8 text-gray-400">
-                <span className="text-sm">Angola • Moçambique • Cabo Verde • Guiné-Bissau</span>
-              </div>
-            </div>
-            
-            <div className="mt-8 pt-8 border-t border-gray-800">
-              <p className="text-gray-500 text-sm leading-relaxed max-w-4xl">
-                <strong>Aviso Legal:</strong> O Kimaaki é um marketplace que conecta clientes, estabelecimentos e entregadores. 
-                Não somos responsáveis pela preparação dos produtos, apenas pela intermediação dos pedidos. 
-                Os preços e disponibilidade dos produtos são definidos pelos estabelecimentos parceiros.
-              </p>
-            </div>
-          </div>
+<footer id="contato" className="bg-[#111111] text-white py-24">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="grid md:grid-cols-4 gap-12 mb-20">
+      
+      {/* Sobre a Empresa */}
+      <div className="md:col-span-2">
+        <div className="flex items-center space-x-3 mb-8">
+          <span className="text-3xl font-bold text-white">Kimaaki</span>
         </div>
-      </footer>
+        <p className="text-gray-300 leading-relaxed text-lg mb-8 max-w-md">
+          Conectando comunidades através da tecnologia. O marketplace de entregas
+          que está transformando a forma como as pessoas fazem compras em África.
+        </p>
+        <div className="flex space-x-4">
+          <a href="#" className="w-14 h-14 bg-gray-800 rounded-2xl flex items-center justify-center hover:bg-[#008488] transition-all duration-300 transform hover:scale-110">
+            <Facebook className="w-6 h-6" />
+          </a>
+          <a href="#" className="w-14 h-14 bg-gray-800 rounded-2xl flex items-center justify-center hover:bg-[#008488] transition-all duration-300 transform hover:scale-110">
+            <Instagram className="w-6 h-6" />
+          </a>
+          <a href="#" className="w-14 h-14 bg-gray-800 rounded-2xl flex items-center justify-center hover:bg-[#008488] transition-all duration-300 transform hover:scale-110">
+            <Linkedin className="w-6 h-6" />
+          </a>
+        </div>
+      </div>
+
+      {/* Links Úteis */}
+      <div>
+        <h3 className="text-2xl font-bold mb-8 text-white">Links Úteis</h3>
+        <ul className="space-y-4">
+          <li><a href="#sobre" className="text-gray-300 hover:text-[#008488] transition-colors text-lg">Sobre nós</a></li>
+          <li><a href="#como-funciona" className="text-gray-300 hover:text-[#008488] transition-colors text-lg">Como funciona</a></li>
+          <li><a href="#parceiro" className="text-gray-300 hover:text-[#008488] transition-colors text-lg">Seja um parceiro</a></li>
+          <li><a href="#termos" className="text-gray-300 hover:text-[#008488] transition-colors text-lg">Termos de uso</a></li>
+          <li><a href="#privacidade" className="text-gray-300 hover:text-[#008488] transition-colors text-lg">Política de privacidade</a></li>
+        </ul>
+      </div>
+
+      {/* Contato */}
+      <div>
+        <h3 className="text-2xl font-bold mb-8 text-white">Contato</h3>
+        <ul className="space-y-6">
+          <li>
+            <div className="flex items-center space-x-4">
+              <Mail className="w-6 h-6 text-white" />
+              <div>
+                <div className="text-gray-300 text-lg">contato@kimaaki.com</div>
+                <div className="text-gray-500 text-sm">Suporte geral</div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="flex items-center space-x-4">
+              <Phone className="w-6 h-6 text-white" />
+              <div>
+                <div className="text-gray-300 text-lg">+244 900 000 000</div>
+                <div className="text-gray-500 text-sm">Segunda a sexta, 8h–18h</div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="flex items-center space-x-4">
+              <MapPin className="w-6 h-6 text-white" />
+              <div>
+                <div className="text-gray-300 text-lg">Luanda, Angola</div>
+                <div className="text-gray-500 text-sm">Sede principal</div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
+
+    {/* Direitos Autorais */}
+    <div className="border-t border-gray-800 pt-8">
+      <div className="flex flex-col md:flex-row justify-between items-center">
+        <p className="text-gray-400 text-lg mb-4 md:mb-0">
+          © 2025 Kimaaki. Todos os direitos reservados.
+        </p>
+        <div className="flex flex-wrap items-center gap-8 text-gray-400">
+          <span className="text-sm">Angola • Moçambique • Cabo Verde • Guiné-Bissau</span>
+        </div>
+      </div>
+      <div className="mt-8 pt-8 border-t border-gray-800">
+        <p className="text-gray-500 text-sm leading-relaxed max-w-4xl">
+          <strong>Aviso Legal:</strong> O Kimaaki é um marketplace que conecta clientes, estabelecimentos e entregadores.
+          Não somos responsáveis pela preparação dos produtos, apenas pela intermediação dos pedidos.
+          Os preços e disponibilidade dos produtos são definidos pelos estabelecimentos parceiros.
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
   );
 }
