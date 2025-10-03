@@ -86,11 +86,11 @@ export default function KimaakiLanding() {
                 <a href="#categorias" className="text-gray-600 hover:text-[#00B488] transition-colors font-medium py-2">Categorias</a>
                 <a href="#beneficios" className="text-gray-600 hover:text-[#00B488] transition-colors font-medium py-2">Benefícios</a>
                 <a href="#contato" className="text-gray-600 hover:text-[#00B488] transition-colors font-medium py-2">Contato</a>
-              </nav>
-            </div>
-          )}
-        </div>
-      </header>
+                </nav>
+</div>
+)}
+</header>
+
 
       {/* Hero Section - Estilo Internacional Premium */}
       <section className="bg-gradient-to-br from-[#006241] via-[#007A52] to-[#00B488] text-white py-20 lg:py-32 relative overflow-hidden">
