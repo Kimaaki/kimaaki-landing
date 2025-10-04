@@ -940,7 +940,7 @@ export default function KimaakiLanding() {
           <p className="mt-2 md:mt-0">Angola • Moçambique • Cabo Verde • Guiné-Bissau</p>
         </div>
 
-        {/* Aviso Legal resumido */}
+                {/* Aviso Legal resumido */}
         <div className="mt-6 text-gray-500 text-sm leading-relaxed max-w-4xl">
           <strong>Aviso Legal:</strong> O Kimaaki é um marketplace que conecta clientes,
           estabelecimentos e entregadores. Não somos responsáveis pela preparação dos
@@ -948,7 +948,6 @@ export default function KimaakiLanding() {
           disponibilidade dos produtos são definidos exclusivamente pelos estabelecimentos parceiros.
         </div>
       </footer>
-    
   );
 }
 
