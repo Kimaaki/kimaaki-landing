@@ -818,6 +818,5 @@ export default function KimaakiLanding() {
       estabelecimentos parceiros.
     </p>
 </footer>
-</div> {/* fecha o wrapper principal da página */}
-);
+  );
 }
