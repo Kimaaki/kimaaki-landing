@@ -947,8 +947,11 @@ export default function KimaakiLanding() {
   estabelecimentos e entregadores. Não somos responsáveis pela preparação dos
   produtos, apenas pela intermediação dos pedidos e gestão das entregas. Os preços e
   disponibilidade dos produtos são definidos exclusivamente pelos estabelecimentos parceiros.
-</div>
+      </div>
+    </footer>
+ </footer>
+  );
+};
 
-</footer>
-);
+export default KimaakiLanding;
 
