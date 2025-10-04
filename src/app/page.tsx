@@ -949,7 +949,7 @@ export default function KimaakiLanding() {
   preços e disponibilidade dos produtos são definidos exclusivamente pelos
   estabelecimentos parceiros.
 </div>
-</div>
+
 </footer>
 );
 }
