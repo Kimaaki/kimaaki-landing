@@ -775,8 +775,7 @@ export default function KimaakiLanding() {
       <div>
         <h4 className="font-semibold text-white mb-2">Sobre a Kimaaki</h4>
         <p className="text-sm leading-relaxed text-gray-300">
-          A Kimaaki é um marketplace que conecta clientes, estabelecimentos e entregadores,
-          transformando a forma como as pessoas fazem compras e recebem produtos em África.
+          
         </p>
       </div>
 
