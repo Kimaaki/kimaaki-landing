@@ -953,3 +953,5 @@ export default function KimaakiLanding() {
 </footer>
 );
 }
+
+  export default KimaakiLanding;
