@@ -817,9 +817,7 @@ export default function KimaakiLanding() {
       preços e disponibilidade dos produtos são definidos exclusivamente pelos
       estabelecimentos parceiros.
     </p>
-  </div>
 </footer>
-
 </div> {/* fecha o wrapper principal da página */}
 );
 }
