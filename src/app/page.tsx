@@ -934,7 +934,7 @@ export default function KimaakiLanding() {
 </ul>
 </div>
 </div>
-           {/* Linha final */}
+          {/* Linha final */}
 <div className="border-t border-gray-800 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
   <p>© 2025 Kimaaki. Todos os direitos reservados.</p>
   <p className="mt-2 md:mt-0">Angola • Moçambique • Cabo Verde • Guiné-Bissau</p>
@@ -945,12 +945,11 @@ export default function KimaakiLanding() {
   <strong>Aviso Legal:</strong> O Kimaaki é um marketplace que conecta clientes,
   estabelecimentos e entregadores. Não somos responsáveis pela preparação dos
   produtos, apenas pela intermediação dos pedidos e gestão das entregas. Os preços e
-  disponibilidade dos produtos são definidos exclusivamente pelos estabelecimentos
-  parceiros.
+  disponibilidade dos produtos são definidos exclusivamente pelos estabelecimentos parceiros.
 </div>
+
 </footer>
 );
 }
 
-export default KimaakiLanding;
 
