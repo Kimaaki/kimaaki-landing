@@ -782,27 +782,29 @@ export default function KimaakiLanding() {
       </div>
     </div>
 
-    {/* Aviso Legal e Direitos Autorais */}
-    <div className="border-t border-gray-800 pt-8">
-      <div className="flex flex-col md:flex-row justify-between items-center">
-        <p className="text-gray-400 text-lg mb-4 md:mb-0">
-          © 2025 Kimaaki. Todos os direitos reservados.
-        </p>
-        <span className="text-sm text-gray-400">
-          Angola • Moçambique • Cabo Verde • Guiné-Bissau
-        </span>
-      </div>
+      {/* Aviso Legal e Direitos Autorais */}
+  <div className="border-t border-gray-800 pt-8">
+    <div className="flex flex-col md:flex-row justify-between items-center">
+      <p className="text-gray-400 text-lg mb-4 md:mb-0">
+        © 2025 Kimaaki. Todos os direitos reservados.
+      </p>
 
-      <div className="mt-8 pt-8 border-t border-gray-800">
-        <p className="text-gray-500 text-sm leading-relaxed max-w-4xl">
-          <strong>Aviso Legal:</strong> O Kimaaki é um marketplace que conecta
-          clientes, estabelecimentos e entregadores. Não somos responsáveis pela
-          preparação dos produtos, apenas pela intermediação dos pedidos. Os
-          preços e disponibilidade dos produtos são definidos pelos estabelecimentos
-          parceiros.
-              </p>
+      <span className="text-sm text-gray-400">
+        Angola • Moçambique • Cabo Verde • Guiné–Bissau
+      </span>
+    </div>
+
+    <div className="mt-8 pt-8 border-t border-gray-800">
+      <p className="text-gray-500 text-sm leading-relaxed max-w-4xl">
+        <strong>Aviso Legal:</strong> O Kimaaki é um marketplace que conecta clientes,
+        estabelecimentos e entregadores. Não somos responsáveis pela
+        preparação dos produtos, apenas pela intermediação dos pedidos. Os
+        preços e disponibilidade dos produtos são definidos pelos
+        estabelecimentos parceiros.
+      </p>
     </div>
   </div>
 </footer>
+</div>
 );
 }
