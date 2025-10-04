@@ -62,7 +62,7 @@ export default function KimaakiLanding() {
               <a href="#contato" className="text-gray-600 hover:text-[#00B488] transition-colors font-medium">Contato</a>
             </nav>
             
-            <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-4">
   <a
     href="https://app.kimaaki.com"
     target="_blank"
@@ -72,7 +72,7 @@ export default function KimaakiLanding() {
     Abrir App
   </a>
 </div>
-              
+    
               {/* Mobile menu button */}
               <button 
                 className="md:hidden p-2"
