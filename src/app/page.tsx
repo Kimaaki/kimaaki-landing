@@ -888,6 +888,7 @@ export default function KimaakiLanding() {
       dos produtos são definidos pelos estabelecimentos parceiros.
     </p>
   </div>
+  </div>
 </footer>
 );
 }
