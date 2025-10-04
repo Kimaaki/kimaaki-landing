@@ -869,26 +869,27 @@ export default function KimaakiLanding() {
       </div>
 
       {/* Direitos Autorais */}
-      <div className="border-t border-gray-800 pt-8">
-        <div className="flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 text-lg mb-4 md:mb-0">
-            © 2025 Kimaaki. Todos os direitos reservados.
-          </p>
+<div className="border-t border-gray-800 pt-8">
+  <div className="flex flex-col md:flex-row justify-between items-center">
+    <p className="text-gray-400 text-lg mb-4 md:mb-0">
+      © 2025 Kimaaki. Todos os direitos reservados.
+    </p>
+  </div>
 
-          <div className="flex flex-wrap items-center gap-8 text-gray-400">
-            <span className="text-sm">Angola • Moçambique • Cabo Verde • Guiné-Bissau</span>
-          </div>
-        </div>
+  <div className="flex flex-wrap items-center gap-8 text-gray-400">
+    <span className="text-sm">Angola • Moçambique • Cabo Verde • Guiné–Bissau</span>
+  </div>
 
-        <div className="mt-8 pt-8 border-t border-gray-800">
-          <p className="text-gray-500 text-sm leading-relaxed max-w-4xl">
-            <strong>Aviso Legal:</strong> O Kimaaki é um marketplace que conecta clientes,
-            estabelecimentos e entregadores. Não somos responsáveis pela preparação dos
-            produtos, apenas pela intermediação dos pedidos. Os preços e disponibilidade
-            dos produtos são definidos pelos estabelecimentos parceiros.
-          </p>
-        </div>
-       </div>
-</footer> 
+  <div className="mt-8 pt-8 border-t border-gray-800">
+    <p className="text-gray-500 text-sm leading-relaxed max-w-4xl">
+      <strong>Aviso Legal:</strong> O Kimaaki é um marketplace que conecta clientes,
+      estabelecimentos e entregadores. Não somos responsáveis pela preparação dos
+      produtos, apenas pela intermediação dos pedidos. Os preços e disponibilidade
+      dos produtos são definidos pelos estabelecimentos parceiros.
+    </p>
+  </div>
+</footer>
+{/* fecha o footer */}
 );
-} 
+}
+
