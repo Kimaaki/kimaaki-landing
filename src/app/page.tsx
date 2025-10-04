@@ -927,28 +927,28 @@ export default function KimaakiLanding() {
             </a>
           </li>
           <li>
-            <a href="/privacidade" className="hover:text-white underline">
-              Política de Privacidade
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
+               <a href="/privacidade" className="hover:text-white underline">
+      Política de Privacidade
+    </a>
+  </li>
+</ul>
+</div>
+</div>
 
-    {/* Linha final */}
-    <div className="border-t border-gray-800 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
-      <p>© 2025 Kimaaki. Todos os direitos reservados.</p>
-      <p className="mt-2 md:mt-0">Angola • Moçambique • Cabo Verde • Guiné-Bissau</p>
-    </div>
+{/* Linha final */}
+<div className="border-t border-gray-800 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
+  <p>© 2025 Kimaaki. Todos os direitos reservados.</p>
+  <p className="mt-2 md:mt-0">Angola • Moçambique • Cabo Verde • Guiné-Bissau</p>
+</div>
 
-    {/* Aviso Legal resumido */}
-    <div className="mt-6 text-gray-500 text-sm leading-relaxed max-w-4xl">
-      <strong>Aviso Legal:</strong> O Kimaaki é um marketplace que conecta clientes,
-      estabelecimentos e entregadores. Não somos responsáveis pela preparação dos
-      produtos, apenas pela intermediação dos pedidos e gestão das entregas. Os preços e
-      disponibilidade dos produtos são definidos exclusivamente pelos estabelecimentos parceiros.
-    </div>
-  </div>
+{/* Aviso Legal resumido */}
+<div className="mt-6 text-gray-500 text-sm leading-relaxed max-w-4xl">
+  <strong>Aviso Legal:</strong> O Kimaaki é um marketplace que conecta clientes,
+  estabelecimentos e entregadores. Não somos responsáveis pela preparação dos
+  produtos, apenas pela intermediação dos pedidos e gestão das entregas. Os preços e
+  disponibilidade dos produtos são definidos exclusivamente pelos estabelecimentos parceiros.
+</div>
+
 </footer>
 );
-}
+
