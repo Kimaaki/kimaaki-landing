@@ -896,9 +896,8 @@ export default function KimaakiLanding() {
         apenas pela intermediação de pedidos e entregas. Os preços e disponibilidade
         são definidos exclusivamente pelos estabelecimentos parceiros.
       </p>
-    </div>
-  </div>
-      </footer>
-    </div>
-  );
+        </div>
+  </footer>
+);
 }
+
