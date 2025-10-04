@@ -781,6 +781,67 @@ export default function KimaakiLanding() {
                 <Linkedin className="w-6 h-6" />
               </a>
             </div>
+            {/* Sobre a Empresa + Contactos + Sede Principal */}
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 text-gray-300">
+    {/* Sobre a Kimaaki */}
+    <div>
+      <h4 className="font-semibold text-white mb-2">Sobre a Kimaaki</h4>
+      <p className="text-sm leading-relaxed">
+        A Kimaaki é um marketplace que conecta clientes, estabelecimentos e entregadores,
+        transformando a forma como as pessoas fazem compras e recebem produtos em África.
+      </p>
+    </div>
+
+    {/* Contactos */}
+    <div>
+      <h4 className="font-semibold text-white mb-2">Contactos</h4>
+      <ul className="text-sm space-y-1">
+        <li>📞 <a href="tel:+244999000000" className="hover:text-white underline">+244 999 000 000</a></li>
+        <li>✉️ <a href="mailto:suporte@kimaaki.com" className="hover:text-white underline">suporte@kimaaki.com</a></li>
+        <li>WhatsApp: <a href="https://wa.me/244999000000" className="hover:text-white underline">+244 999 000 000</a></li>
+      </ul>
+    </div>
+
+    {/* Sede Principal */}
+    <div>
+      <h4 className="font-semibold text-white mb-2">Sede Principal</h4>
+      <ul className="text-sm space-y-1">
+        <li>Rua Exemplo, Nº 123</li>
+        <li>Luanda • Angola</li>
+      </ul>
+    </div>
+  </div>
+
+  {/* Termos & Condições / Privacidade */}
+<div className="mt-8 border-t border-gray-800 pt-6">
+  <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-400 gap-4">
+
+    {/* Links de Termos */}
+    <div className="flex flex-wrap gap-6">
+      <a href="/termos" className="hover:text-white underline">
+        Termos & Condições
+      </a>
+      <a href="/privacidade" className="hover:text-white underline">
+        Política de Privacidade
+      </a>
+    </div>
+  </div>
+
+  {/* Nota legal adaptada à realidade PALOP */}
+  <p className="mt-4 text-xs leading-relaxed text-gray-500 max-w-4xl">
+    A Kimaaki é um marketplace que conecta clientes, estabelecimentos e entregadores
+    em Angola, Moçambique, Cabo Verde e Guiné-Bissau. Não somos responsáveis pela
+    preparação dos produtos, apenas pela intermediação dos pedidos e gestão das entregas.
+    Os preços, qualidade e disponibilidade dos produtos são definidos
+    exclusivamente pelos estabelecimentos parceiros.  
+    O uso da plataforma implica a aceitação dos nossos Termos & Condições
+    e da Política de Privacidade.
+  </p>
+</div>
+
+    <a href="#privacidade" className="underline hover:text-white">Política de Privacidade</a>
+  </div>
+
           </div>
 
           {/* Aviso Legal e Direitos Autorais */}
