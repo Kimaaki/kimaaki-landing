@@ -899,3 +899,8 @@ export default function KimaakiLanding() {
     </div>
   </div>
 </footer>
+      </div>
+    );
+}
+
+
