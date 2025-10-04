@@ -889,7 +889,7 @@ export default function KimaakiLanding() {
     </p>
   </div>
 </footer>
-{/* fecha o footer */}
 );
 }
+
 
