@@ -868,36 +868,87 @@ export default function KimaakiLanding() {
           <li>💬 <a href="https://wa.me/244999000000" target="_blank" className="hover:text-white">WhatsApp: +244 999 000 000</a></li>
         </ul>
       </div>
+      {/* Rodapé */}
+<footer id="contacto" className="bg-[#111111] text-white py-10">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="grid md:grid-cols-4 gap-12">
+      {/* Sobre a Kimaaki */}
+      <div>
+        <h4 className="font-semibold text-lg mb-3">Sobre a Kimaaki</h4>
+        <p className="text-sm leading-relaxed">
+          A Kimaaki é um marketplace que conecta clientes, estabelecimentos e
+          entregadores, transformando a forma como as pessoas fazem compras e
+          recebem produtos.
+        </p>
+      </div>
+
+      {/* Contactos */}
+      <div>
+        <h4 className="font-semibold text-lg mb-3">Contactos</h4>
+        <ul className="text-sm space-y-2">
+          <li>
+            <a href="tel:+244999000000" className="hover:text-white underline">
+              +244 999 000 000
+            </a>
+          </li>
+          <li>
+            <a href="mailto:suporte@kimaaki.com" className="hover:text-white underline">
+              suporte@kimaaki.com
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://wa.me/244999000000"
+              target="_blank"
+              className="hover:text-white underline"
+            >
+              WhatsApp: +244 999 000 000
+            </a>
+          </li>
+        </ul>
+      </div>
 
       {/* Sede Principal */}
       <div>
         <h4 className="font-semibold text-lg mb-3">Sede Principal</h4>
-        <ul className="space-y-2 text-sm text-gray-400">
-          <li>📍 Rua Exemplo, Nº 123</li>
+        <ul className="text-sm space-y-2">
+          <li>Rua Exemplo, Nº 123</li>
           <li>Luanda • Angola</li>
         </ul>
       </div>
 
-      {/* Termos e Políticas */}
+      {/* Informações Legais */}
       <div>
         <h4 className="font-semibold text-lg mb-3">Informações Legais</h4>
-        <ul className="space-y-2 text-sm text-gray-400">
-          <li><a href="/termos" className="hover:text-white underline">Termos & Condições</a></li>
-          <li><a href="/privacidade" className="hover:text-white underline">Política de Privacidade</a></li>
+        <ul className="text-sm space-y-2">
+          <li>
+            <a href="/termos" className="hover:text-white underline">
+              Termos &amp; Condições
+            </a>
+          </li>
+          <li>
+            <a href="/privacidade" className="hover:text-white underline">
+              Política de Privacidade
+            </a>
+          </li>
         </ul>
       </div>
     </div>
 
-    {/* Aviso Legal e Direitos Autorais */}
-    <div className="border-t border-gray-800 mt-10 pt-6 text-sm text-gray-400 text-center">
+    {/* Linha final */}
+    <div className="border-t border-gray-800 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
       <p>© 2025 Kimaaki. Todos os direitos reservados.</p>
-      <p className="mt-2">
-        Aviso Legal: A Kimaaki não é responsável pela preparação dos produtos,
-        apenas pela intermediação de pedidos e entregas. Os preços e disponibilidade
-        são definidos exclusivamente pelos estabelecimentos parceiros.
-      </p>
-        </div>
-  </footer>
+      <p className="mt-2 md:mt-0">Angola • Moçambique • Cabo Verde • Guiné-Bissau</p>
+    </div>
+
+    {/* Aviso Legal resumido */}
+    <div className="mt-6 text-gray-500 text-sm leading-relaxed max-w-4xl">
+      <strong>Aviso Legal:</strong> O Kimaaki é um marketplace que conecta clientes,
+      estabelecimentos e entregadores. Não somos responsáveis pela preparação dos
+      produtos, apenas pela intermediação dos pedidos e gestão das entregas. Os preços e
+      disponibilidade dos produtos são definidos exclusivamente pelos estabelecimentos parceiros.
+    </div>
+  </div>
+</footer>
 );
 }
-
