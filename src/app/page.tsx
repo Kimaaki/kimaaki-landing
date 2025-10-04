@@ -63,14 +63,15 @@ export default function KimaakiLanding() {
             </nav>
             
             <div className="flex items-center space-x-4">
-             <a
-  href="https://app.kimaaki.com"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="bg-gradient-to-r from-[#008488] to-[#006241] text-white px-6 py-2.5 rounded-xl hover:shadow-lg transition-all duration-300 font-medium shadow-md transform hover:scale-105"
->
-  Abrir App
-</a>
+  <a
+    href="https://app.kimaaki.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-gradient-to-r from-[#008488] to-[#006241] text-white px-6 py-2.5 rounded-xl hover:shadow-lg transition-all duration-300 font-medium shadow-md transform hover:scale-105"
+  >
+    Abrir App
+  </a>
+</div>
               
               {/* Mobile menu button */}
               <button 
