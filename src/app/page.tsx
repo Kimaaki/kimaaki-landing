@@ -45,15 +45,14 @@ export default function KimaakiLanding() {
       {/* Header/Navigation - Estilo Premium Internacional */}
       <header className="bg-white/95 backdrop-blur-md shadow-sm border-b border-gray-100 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* LINHA SUPERIOR DO HEADER */}
           <div className="flex justify-between items-center h-16">
+            {/* LOGO (ESQUERDA) */}
             <div className="flex items-center space-x-3">
-  <img src="/logo.svg" alt="Kimaaki Logo" className="h-10 w-auto" />
- 
-</div>
-
+              <img src="/logo.svg" alt="Kimaaki Logo" className="h-10 w-auto" />
             </div>
-            
-            {/* Desktop Navigation */}
+
+            {/* NAVEGAÇÃO (DESKTOP) */}
             <nav className="hidden md:flex space-x-8">
               <a href="#sobre" className="text-gray-600 hover:text-[#00B488] transition-colors font-medium">Sobre</a>
               <a href="#como-funciona" className="text-gray-600 hover:text-[#00B488] transition-colors font-medium">Como Funciona</a>
@@ -61,42 +60,43 @@ export default function KimaakiLanding() {
               <a href="#beneficios" className="text-gray-600 hover:text-[#00B488] transition-colors font-medium">Benefícios</a>
               <a href="#contato" className="text-gray-600 hover:text-[#00B488] transition-colors font-medium">Contato</a>
             </nav>
-            
-          <div className="flex items-center space-x-4">
-  <a
-    href="https://app.kimaaki.com"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="bg-gradient-to-r from-[#008488] to-[#006241] text-white px-6 py-2.5 rounded-xl hover:shadow-lg transition-all duration-300 font-medium shadow-md transform hover:scale-105"
-  >
-    Abrir App
-  </a>
-</div>
-    
-              {/* Mobile menu button */}
-              <button 
+
+            {/* AÇÕES (DIREITA) */}
+            <div className="flex items-center space-x-4">
+              <a
+                href="https://app.kimaaki.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-gradient-to-r from-[#008488] to-[#006241] text-white px-6 py-2.5 rounded-xl hover:shadow-lg transition-all duration-300 font-medium shadow-md transform hover:scale-105"
+              >
+                Abrir App
+              </a>
+
+              {/* BOTÃO MENU (MOBILE) */}
+              <button
                 className="md:hidden p-2"
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                aria-label="Abrir menu"
               >
                 {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
               </button>
             </div>
           </div>
-          
-          {/* Mobile Navigation */}
-          {mobileMenuOpen && (
-            <div className="md:hidden py-4 border-t border-gray-100 bg-white/95 backdrop-blur-md">
-              <nav className="flex flex-col space-y-3">
-                <a href="#sobre" className="text-gray-600 hover:text-[#00B488] transition-colors font-medium py-2">Sobre</a>
-                <a href="#como-funciona" className="text-gray-600 hover:text-[#00B488] transition-colors font-medium py-2">Como Funciona</a>
-                <a href="#categorias" className="text-gray-600 hover:text-[#00B488] transition-colors font-medium py-2">Categorias</a>
-                <a href="#beneficios" className="text-gray-600 hover:text-[#00B488] transition-colors font-medium py-2">Benefícios</a>
-                <a href="#contato" className="text-gray-600 hover:text-[#00B488] transition-colors font-medium py-2">Contato</a>
-                </nav>
-</div>
-)}
-</header>
+        </div>
 
+        {/* NAVEGAÇÃO MOBILE */}
+        {mobileMenuOpen && (
+          <div className="md:hidden py-4 border-t border-gray-100 bg-white/95 backdrop-blur-md">
+            <nav className="flex flex-col space-y-3 px-4">
+              <a href="#sobre" className="text-gray-600 hover:text-[#00B488] transition-colors font-medium py-2">Sobre</a>
+              <a href="#como-funciona" className="text-gray-600 hover:text-[#00B488] transition-colors font-medium py-2">Como Funciona</a>
+              <a href="#categorias" className="text-gray-600 hover:text-[#00B488] transition-colors font-medium py-2">Categorias</a>
+              <a href="#beneficios" className="text-gray-600 hover:text-[#00B488] transition-colors font-medium py-2">Benefícios</a>
+              <a href="#contato" className="text-gray-600 hover:text-[#00B488] transition-colors font-medium py-2">Contato</a>
+            </nav>
+          </div>
+        )}
+      </header>
 
       {/* Hero Section - Estilo Internacional Premium */}
       <section className="bg-gradient-to-br from-[#006241] via-[#007A52] to-[#00B488] text-white py-20 lg:py-32 relative overflow-hidden">
@@ -126,18 +126,33 @@ export default function KimaakiLanding() {
               
               {/* CTAs Premium com Ícones - Estilo Internacional */}
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-12">
-                <button className="bg-white text-[#006241] px-10 py-5 rounded-2xl font-bold hover:bg-gray-50 transition-all duration-300 flex items-center justify-center space-x-3 shadow-2xl hover:shadow-3xl transform hover:scale-105 text-lg group">
+                <a
+                  href="https://app.kimaaki.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white text-[#006241] px-10 py-5 rounded-2xl font-bold hover:bg-gray-50 transition-all duration-300 flex items-center justify-center space-x-3 shadow-2xl hover:shadow-3xl transform hover:scale-105 text-lg group"
+                >
                   <ExternalLink className="w-6 h-6 group-hover:rotate-12 transition-transform duration-300" />
                   <span>Abrir App Web</span>
-                </button>
-                <button className="bg-[#111111] text-white px-10 py-5 rounded-2xl font-bold hover:bg-gray-900 transition-all duration-300 flex items-center justify-center space-x-3 shadow-2xl text-lg group">
+                </a>
+                <a
+                  href="https://app.kimaaki.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-[#111111] text-white px-10 py-5 rounded-2xl font-bold hover:bg-gray-900 transition-all duration-300 flex items-center justify-center space-x-3 shadow-2xl text-lg group"
+                >
                   <Play className="w-5 h-5 group-hover:scale-110 transition-transform duration-300" />
                   <span>Google Play</span>
-                </button>
-                <button className="bg-[#111111] text-white px-10 py-5 rounded-2xl font-bold hover:bg-gray-900 transition-all duration-300 flex items-center justify-center space-x-3 shadow-2xl text-lg group">
+                </a>
+                <a
+                  href="https://app.kimaaki.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-[#111111] text-white px-10 py-5 rounded-2xl font-bold hover:bg-gray-900 transition-all duration-300 flex items-center justify-center space-x-3 shadow-2xl text-lg group"
+                >
                   <Download className="w-5 h-5 group-hover:scale-110 transition-transform duration-300" />
                   <span>App Store</span>
-                </button>
+                </a>
               </div>
 
               {/* Indicadores de Confiança */}
@@ -704,18 +719,33 @@ export default function KimaakiLanding() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">
-            <button className="bg-white text-[#006241] px-12 py-6 rounded-2xl font-bold hover:bg-gray-50 transition-all duration-300 flex items-center justify-center space-x-4 shadow-2xl text-xl group transform hover:scale-105">
+            <a
+              href="https://app.kimaaki.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white text-[#006241] px-12 py-6 rounded-2xl font-bold hover:bg-gray-50 transition-all duration-300 flex items-center justify-center space-x-4 shadow-2xl text-xl group transform hover:scale-105"
+            >
               <ExternalLink className="w-7 h-7 group-hover:rotate-12 transition-transform duration-300" />
               <span>Abrir App Web</span>
-            </button>
-            <button className="bg-[#111111] text-white px-12 py-6 rounded-2xl font-bold hover:bg-gray-900 transition-all duration-300 flex items-center justify-center space-x-4 shadow-2xl text-xl group transform hover:scale-105">
+            </a>
+            <a
+              href="https://app.kimaaki.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#111111] text-white px-12 py-6 rounded-2xl font-bold hover:bg-gray-900 transition-all duration-300 flex items-center justify-center space-x-4 shadow-2xl text-xl group transform hover:scale-105"
+            >
               <Play className="w-6 h-6 group-hover:scale-110 transition-transform duration-300" />
               <span>Google Play</span>
-            </button>
-            <button className="bg-[#111111] text-white px-12 py-6 rounded-2xl font-bold hover:bg-gray-900 transition-all duration-300 flex items-center justify-center space-x-4 shadow-2xl text-xl group transform hover:scale-105">
+            </a>
+            <a
+              href="https://app.kimaaki.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#111111] text-white px-12 py-6 rounded-2xl font-bold hover:bg-gray-900 transition-all duration-300 flex items-center justify-center space-x-4 shadow-2xl text-xl group transform hover:scale-105"
+            >
               <Download className="w-6 h-6 group-hover:scale-110 transition-transform duration-300" />
               <span>App Store</span>
-            </button>
+            </a>
           </div>
 
           {/* Indicadores de confiança finais */}
@@ -751,77 +781,78 @@ export default function KimaakiLanding() {
         </div>
       </section>
 
-             {/* Rodapé Único e Correto */}
-<footer id="contato" className="bg-[#111111] text-white py-24">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div className="grid md:grid-cols-4 gap-12 mb-12">
-      {/* Marca + redes */}
-      <div className="md:col-span-2">
-        <span className="text-3xl font-bold text-white">Kimaaki</span>
-        <p className="text-gray-300 leading-relaxed text-lg mb-8 max-w-md">
-          Conectando comunidades através da tecnologia.
-          O marketplace de entregas que está transformando
-          a forma como as pessoas fazem compras em África.
-        </p>
+      {/* Rodapé Único e Correto */}
+      <footer id="contato" className="bg-[#111111] text-white py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid md:grid-cols-4 gap-12 mb-12">
+            {/* Marca + redes */}
+            <div className="md:col-span-2">
+              <span className="text-3xl font-bold text-white">Kimaaki</span>
+              <p className="text-gray-300 leading-relaxed text-lg mb-8 max-w-md">
+                Conectando comunidades através da tecnologia.
+                O marketplace de entregas que está transformando
+                a forma como as pessoas fazem compras em África.
+              </p>
 
-        <div className="flex space-x-4">
-          <a href="#" className="w-14 h-14 bg-gray-800 rounded-2xl flex items-center justify-center hover:bg-[#008488] transition-all duration-300 transform hover:scale-110">
-            <Facebook className="w-6 h-6" />
-          </a>
-          <a href="#" className="w-14 h-14 bg-gray-800 rounded-2xl flex items-center justify-center hover:bg-[#008488] transition-all duration-300 transform hover:scale-110">
-            <Instagram className="w-6 h-6" />
-          </a>
-          <a href="#" className="w-14 h-14 bg-gray-800 rounded-2xl flex items-center justify-center hover:bg-[#008488] transition-all duration-300 transform hover:scale-110">
-            <Linkedin className="w-6 h-6" />
-          </a>
+              <div className="flex space-x-4">
+                <a href="#" className="w-14 h-14 bg-gray-800 rounded-2xl flex items-center justify-center hover:bg-[#008488] transition-all duration-300 transform hover:scale-110">
+                  <Facebook className="w-6 h-6" />
+                </a>
+                <a href="#" className="w-14 h-14 bg-gray-800 rounded-2xl flex items-center justify-center hover:bg-[#008488] transition-all duration-300 transform hover:scale-110">
+                  <Instagram className="w-6 h-6" />
+                </a>
+                <a href="#" className="w-14 h-14 bg-gray-800 rounded-2xl flex items-center justify-center hover:bg-[#008488] transition-all duration-300 transform hover:scale-110">
+                  <Linkedin className="w-6 h-6" />
+                </a>
+              </div>
+            </div>
+
+            {/* Sobre */}
+            <div>
+              <h4 className="font-semibold text-white mb-2">Sobre a Kimaaki</h4>
+              <p className="text-sm leading-relaxed text-gray-300">
+              </p>
+            </div>
+
+            {/* Contactos */}
+            <div>
+              <h4 className="font-semibold text-white mb-2">Contactos</h4>
+              <ul className="text-sm space-y-1 text-gray-300">
+                <li>📞 <a href="tel:+244999000000" className="hover:text-white underline">+244 999 000 000</a></li>
+                <li>✉️ <a href="mailto:suporte@kimaaki.com" className="hover:text-white underline">suporte@kimaaki.com</a></li>
+                <li>WhatsApp: <a href="https://wa.me/244999000000" className="hover:text-white underline">+244 999 000 000</a></li>
+              </ul>
+            </div>
+
+            {/* Sede */}
+            <div>
+              <h4 className="font-semibold text-white mb-2">Sede Principal</h4>
+              <ul className="text-sm space-y-1 text-gray-300">
+                <li>Rua Exemplo, Nº 123</li>
+                <li>Luanda • Angola</li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Termos / Privacidade + copy */}
+          <div className="mt-4 border-t border-gray-800 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400 gap-4">
+            <div className="flex flex-wrap gap-6">
+              <a href="/termos" className="hover:text-white underline">Termos &amp; Condições</a>
+              <a href="/privacidade" className="hover:text-white underline">Política de Privacidade</a>
+            </div>
+            <p className="mt-2 md:mt-0">© 2025 Kimaaki — Angola • Moçambique • Cabo Verde • Guiné-Bissau</p>
+          </div>
+
+          {/* Aviso Legal */}
+          <p className="mt-6 text-gray-500 text-sm leading-relaxed max-w-4xl">
+            <strong>Aviso Legal:</strong> O Kimaaki é um marketplace que conecta clientes,
+            estabelecimentos e entregadores. Não somos responsáveis pela preparação dos
+            produtos, apenas pela intermediação dos pedidos e gestão das entregas. Os
+            preços e disponibilidade dos produtos são definidos exclusivamente pelos
+            estabelecimentos parceiros.
+          </p>
         </div>
-      </div>
-
-      {/* Sobre */}
-      <div>
-        <h4 className="font-semibold text-white mb-2">Sobre a Kimaaki</h4>
-        <p className="text-sm leading-relaxed text-gray-300">
-          
-        </p>
-      </div>
-
-      {/* Contactos */}
-      <div>
-        <h4 className="font-semibold text-white mb-2">Contactos</h4>
-        <ul className="text-sm space-y-1 text-gray-300">
-          <li>📞 <a href="tel:+244999000000" className="hover:text-white underline">+244 999 000 000</a></li>
-          <li>✉️ <a href="mailto:suporte@kimaaki.com" className="hover:text-white underline">suporte@kimaaki.com</a></li>
-          <li>WhatsApp: <a href="https://wa.me/244999000000" className="hover:text-white underline">+244 999 000 000</a></li>
-        </ul>
-      </div>
-
-      {/* Sede */}
-      <div>
-        <h4 className="font-semibold text-white mb-2">Sede Principal</h4>
-        <ul className="text-sm space-y-1 text-gray-300">
-          <li>Rua Exemplo, Nº 123</li>
-          <li>Luanda • Angola</li>
-        </ul>
-      </div>
+      </footer>
     </div>
-
-    {/* Termos / Privacidade + copy */}
-    <div className="mt-4 border-t border-gray-800 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400 gap-4">
-      <div className="flex flex-wrap gap-6">
-        <a href="/termos" className="hover:text-white underline">Termos &amp; Condições</a>
-        <a href="/privacidade" className="hover:text-white underline">Política de Privacidade</a>
-      </div>
-      <p className="mt-2 md:mt-0">© 2025 Kimaaki — Angola • Moçambique • Cabo Verde • Guiné-Bissau</p>
-    </div>
-
-    {/* Aviso Legal */}
-    <p className="mt-6 text-gray-500 text-sm leading-relaxed max-w-4xl">
-      <strong>Aviso Legal:</strong> O Kimaaki é um marketplace que conecta clientes,
-      estabelecimentos e entregadores. Não somos responsáveis pela preparação dos
-      produtos, apenas pela intermediação dos pedidos e gestão das entregas. Os
-      preços e disponibilidade dos produtos são definidos exclusivamente pelos
-      estabelecimentos parceiros.
-    </p>
-</footer>
   );
 }
