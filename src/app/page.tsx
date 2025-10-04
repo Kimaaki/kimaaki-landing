@@ -745,66 +745,68 @@ export default function KimaakiLanding() {
         </div>
       </section>
 
-       {/* Rodapé Premium Internacional */}
-<footer id="contato" className="bg-[#111111] text-white py-24">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div className="grid md:grid-cols-4 gap-12 mb-20">
-      
-      {/* Sobre a Empresa */}
-      <div className="md:col-span-2">
-        <span className="text-3xl font-bold text-white">Kimaaki</span>
-        <p className="text-gray-300 leading-relaxed text-lg mb-8 max-w-md">
-          Conectando comunidades através da tecnologia. O marketplace de entregas
-          que está transformando a forma como as pessoas fazem compras em África.
-        </p>
-      </div>
+             {/* Rodapé Premium Internacional */}
+      <footer id="contato" className="bg-[#111111] text-white py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid md:grid-cols-4 gap-12 mb-20">
 
-      {/* Redes sociais */}
-      <div className="flex space-x-4">
-        <a
-          href="#"
-          className="w-14 h-14 bg-gray-800 rounded-2xl flex items-center justify-center hover:bg-[#008488] transition-all duration-300 transform hover:scale-110"
-        >
-          <Facebook className="w-6 h-6" />
-        </a>
-        <a
-          href="#"
-          className="w-14 h-14 bg-gray-800 rounded-2xl flex items-center justify-center hover:bg-[#008488] transition-all duration-300 transform hover:scale-110"
-        >
-          <Instagram className="w-6 h-6" />
-        </a>
-        <a
-          href="#"
-          className="w-14 h-14 bg-gray-800 rounded-2xl flex items-center justify-center hover:bg-[#008488] transition-all duration-300 transform hover:scale-110"
-        >
-          <Linkedin className="w-6 h-6" />
-        </a>
-      </div>
-    </div>
+            {/* Sobre a Empresa */}
+            <div className="md:col-span-2">
+              <span className="text-3xl font-bold text-white">Kimaaki</span>
+              <p className="text-gray-300 leading-relaxed text-lg mb-8 max-w-md">
+                Conectando comunidades através da tecnologia. 
+                O marketplace de entregas que está transformando 
+                a forma como as pessoas fazem compras em África.
+              </p>
+            </div>
 
-      {/* Aviso Legal e Direitos Autorais */}
-  <div className="border-t border-gray-800 pt-8">
-    <div className="flex flex-col md:flex-row justify-between items-center">
-      <p className="text-gray-400 text-lg mb-4 md:mb-0">
-        © 2025 Kimaaki. Todos os direitos reservados.
-      </p>
+            {/* Redes sociais */}
+            <div className="flex space-x-4">
+              <a
+                href="#"
+                className="w-14 h-14 bg-gray-800 rounded-2xl flex items-center justify-center hover:bg-[#008488] transition-all duration-300 transform hover:scale-110"
+              >
+                <Facebook className="w-6 h-6" />
+              </a>
+              <a
+                href="#"
+                className="w-14 h-14 bg-gray-800 rounded-2xl flex items-center justify-center hover:bg-[#008488] transition-all duration-300 transform hover:scale-110"
+              >
+                <Instagram className="w-6 h-6" />
+              </a>
+              <a
+                href="#"
+                className="w-14 h-14 bg-gray-800 rounded-2xl flex items-center justify-center hover:bg-[#008488] transition-all duration-300 transform hover:scale-110"
+              >
+                <Linkedin className="w-6 h-6" />
+              </a>
+            </div>
+          </div>
 
-      <span className="text-sm text-gray-400">
-        Angola • Moçambique • Cabo Verde • Guiné–Bissau
-      </span>
-    </div>
+          {/* Aviso Legal e Direitos Autorais */}
+          <div className="border-t border-gray-800 pt-8">
+            <div className="flex flex-col md:flex-row justify-between items-center">
+              <p className="text-gray-400 text-lg mb-4 md:mb-0">
+                © 2025 Kimaaki. Todos os direitos reservados.
+              </p>
+              <span className="text-sm text-gray-400">
+                Angola • Moçambique • Cabo Verde • Guiné-Bissau
+              </span>
+            </div>
 
-    <div className="mt-8 pt-8 border-t border-gray-800">
-      <p className="text-gray-500 text-sm leading-relaxed max-w-4xl">
-        <strong>Aviso Legal:</strong> O Kimaaki é um marketplace que conecta clientes,
-        estabelecimentos e entregadores. Não somos responsáveis pela
-        preparação dos produtos, apenas pela intermediação dos pedidos. Os
-        preços e disponibilidade dos produtos são definidos pelos
-        estabelecimentos parceiros.
-      </p>
-    </div>
-  </div>
-</footer>
+            <div className="mt-8 pt-8 border-t border-gray-800">
+              <p className="text-gray-500 text-sm leading-relaxed max-w-4xl">
+                <strong>Aviso Legal:</strong> O Kimaaki é um marketplace que conecta 
+                clientes, estabelecimentos e entregadores. Não somos responsáveis 
+                pela preparação dos produtos, apenas pela intermediação dos pedidos. 
+                Os preços e disponibilidade dos produtos são definidos pelos 
+                estabelecimentos parceiros.
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
 </div>
 );
 }
