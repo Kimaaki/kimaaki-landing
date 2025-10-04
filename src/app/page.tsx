@@ -948,10 +948,8 @@ export default function KimaakiLanding() {
   produtos, apenas pela intermediação dos pedidos e gestão das entregas. Os
   preços e disponibilidade dos produtos são definidos exclusivamente pelos
   estabelecimentos parceiros.
-</div>
-
+</div> {/* Fecha aviso legal */}
 </footer>
 );
 }
 
-  export default KimaakiLanding;
